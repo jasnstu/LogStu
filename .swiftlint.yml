@@ -1,0 +1,9 @@
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_comma
+opt_in_rules: # some rules are only opt-in
+  - force_unwrapping
+  # Find all the available rules by running:
+  # swiftlint rules
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
