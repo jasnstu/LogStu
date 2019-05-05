@@ -14,15 +14,8 @@
 		ACAC8A63DF597A150FFE3B05 /* libPods-LogStu iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AF87A71D68A7420A6C3D1F /* libPods-LogStu iOS.a */; };
 		BBF5540356BB3B9F6919BC81 /* libPods-LogStu macOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5054B69828D544CB1AD3709A /* libPods-LogStu macOSTests.a */; };
 		C5D8BCD5227F58E600BFEE80 /* LogStu_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */; };
-		C5D8BCDA227F58E600BFEE80 /* LogStu_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BCD9227F58E600BFEE80 /* LogStu_iOSTests.swift */; };
-		C5D8BCDC227F58E600BFEE80 /* LogStu_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCCE227F58E600BFEE80 /* LogStu_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5D8BCF9227F592B00BFEE80 /* LogStu_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCF7227F592B00BFEE80 /* LogStu_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5D8BD0B227F594000BFEE80 /* LogStu_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */; };
-		C5D8BD10227F594000BFEE80 /* LogStu_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD0F227F594000BFEE80 /* LogStu_tvOSTests.swift */; };
-		C5D8BD12227F594000BFEE80 /* LogStu_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BD04227F594000BFEE80 /* LogStu_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5D8BD27227F596300BFEE80 /* LogStu_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD1E227F596200BFEE80 /* LogStu_macOS.framework */; };
-		C5D8BD2C227F596300BFEE80 /* LogStu_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD2B227F596300BFEE80 /* LogStu_macOSTests.swift */; };
-		C5D8BD2E227F596300BFEE80 /* LogStu_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BD20227F596300BFEE80 /* LogStu_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC30C824D32BA8B2693E208A /* libPods-LogStu tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01341A2C83DD044A28BA1D /* libPods-LogStu tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -73,28 +66,12 @@
 		C5D8BCBD227F58A400BFEE80 /* LogStuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStuTests.swift; sourceTree = "<group>"; };
 		C5D8BCBF227F58A400BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BCCE227F58E600BFEE80 /* LogStu_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu_iOS.h; sourceTree = "<group>"; };
-		C5D8BCCF227F58E600BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BCD9227F58E600BFEE80 /* LogStu_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStu_iOSTests.swift; sourceTree = "<group>"; };
-		C5D8BCDB227F58E600BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5D8BCEA227F58FB00BFEE80 /* LogStu_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu_watchOS.h; sourceTree = "<group>"; };
-		C5D8BCEB227F58FB00BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCF5227F592B00BFEE80 /* LogStu_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BCF7227F592B00BFEE80 /* LogStu_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu_watchOS.h; sourceTree = "<group>"; };
-		C5D8BCF8227F592B00BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BD04227F594000BFEE80 /* LogStu_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu_tvOS.h; sourceTree = "<group>"; };
-		C5D8BD05227F594000BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BD0F227F594000BFEE80 /* LogStu_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStu_tvOSTests.swift; sourceTree = "<group>"; };
-		C5D8BD11227F594000BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BD1E227F596200BFEE80 /* LogStu_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BD20227F596300BFEE80 /* LogStu_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu_macOS.h; sourceTree = "<group>"; };
-		C5D8BD21227F596300BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BD26227F596300BFEE80 /* LogStu macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BD2B227F596300BFEE80 /* LogStu_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStu_macOSTests.swift; sourceTree = "<group>"; };
-		C5D8BD2D227F596300BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C88C3DF1A387A08C6A604A57 /* Pods-LogStu watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu watchOS.release.xcconfig"; path = "Target Support Files/Pods-LogStu watchOS/Pods-LogStu watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		C9533960968D72C1FF9B959E /* Pods-LogStu macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu macOS.release.xcconfig"; path = "Target Support Files/Pods-LogStu macOS/Pods-LogStu macOS.release.xcconfig"; sourceTree = "<group>"; };
 		CF7C73C377EC9799816CE20F /* Pods-LogStu macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu macOS.debug.xcconfig"; path = "Target Support Files/Pods-LogStu macOS/Pods-LogStu macOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,14 +160,6 @@
 			children = (
 				C5D8BCB1227F58A300BFEE80 /* LogStu */,
 				C5D8BCBC227F58A400BFEE80 /* LogStuTests */,
-				C5D8BCCD227F58E600BFEE80 /* LogStu iOS */,
-				C5D8BCD8227F58E600BFEE80 /* LogStu iOSTests */,
-				C5D8BCE9227F58FB00BFEE80 /* LogStu watchOS */,
-				C5D8BCF6227F592B00BFEE80 /* LogStu watchOS */,
-				C5D8BD03227F594000BFEE80 /* LogStu tvOS */,
-				C5D8BD0E227F594000BFEE80 /* LogStu tvOSTests */,
-				C5D8BD1F227F596300BFEE80 /* LogStu macOS */,
-				C5D8BD2A227F596300BFEE80 /* LogStu macOSTests */,
 				C5D8BCB0227F58A300BFEE80 /* Products */,
 				E7DF1EBF219450AACEC851B8 /* Pods */,
 				797F50D84467C39599B6B9E8 /* Frameworks */,
@@ -214,8 +183,7 @@
 		C5D8BCB1227F58A300BFEE80 /* LogStu */ = {
 			isa = PBXGroup;
 			children = (
-				C5D8BCB2227F58A300BFEE80 /* LogStu.h */,
-				C5D8BCB3227F58A300BFEE80 /* Info.plist */,
+				C5D8BD35227F5DFC00BFEE80 /* Supporting Files */,
 			);
 			path = LogStu;
 			sourceTree = "<group>";
@@ -229,76 +197,13 @@
 			path = LogStuTests;
 			sourceTree = "<group>";
 		};
-		C5D8BCCD227F58E600BFEE80 /* LogStu iOS */ = {
+		C5D8BD35227F5DFC00BFEE80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5D8BCCE227F58E600BFEE80 /* LogStu_iOS.h */,
-				C5D8BCCF227F58E600BFEE80 /* Info.plist */,
+				C5D8BCB2227F58A300BFEE80 /* LogStu.h */,
+				C5D8BCB3227F58A300BFEE80 /* Info.plist */,
 			);
-			path = "LogStu iOS";
-			sourceTree = "<group>";
-		};
-		C5D8BCD8227F58E600BFEE80 /* LogStu iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BCD9227F58E600BFEE80 /* LogStu_iOSTests.swift */,
-				C5D8BCDB227F58E600BFEE80 /* Info.plist */,
-			);
-			path = "LogStu iOSTests";
-			sourceTree = "<group>";
-		};
-		C5D8BCE9227F58FB00BFEE80 /* LogStu watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BCEA227F58FB00BFEE80 /* LogStu_watchOS.h */,
-				C5D8BCEB227F58FB00BFEE80 /* Info.plist */,
-			);
-			path = "LogStu watchOS";
-			sourceTree = "<group>";
-		};
-		C5D8BCF6227F592B00BFEE80 /* LogStu watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BCF7227F592B00BFEE80 /* LogStu_watchOS.h */,
-				C5D8BCF8227F592B00BFEE80 /* Info.plist */,
-			);
-			path = "LogStu watchOS";
-			sourceTree = "<group>";
-		};
-		C5D8BD03227F594000BFEE80 /* LogStu tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BD04227F594000BFEE80 /* LogStu_tvOS.h */,
-				C5D8BD05227F594000BFEE80 /* Info.plist */,
-			);
-			path = "LogStu tvOS";
-			sourceTree = "<group>";
-		};
-		C5D8BD0E227F594000BFEE80 /* LogStu tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BD0F227F594000BFEE80 /* LogStu_tvOSTests.swift */,
-				C5D8BD11227F594000BFEE80 /* Info.plist */,
-			);
-			path = "LogStu tvOSTests";
-			sourceTree = "<group>";
-		};
-		C5D8BD1F227F596300BFEE80 /* LogStu macOS */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BD20227F596300BFEE80 /* LogStu_macOS.h */,
-				C5D8BD21227F596300BFEE80 /* Info.plist */,
-			);
-			path = "LogStu macOS";
-			sourceTree = "<group>";
-		};
-		C5D8BD2A227F596300BFEE80 /* LogStu macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5D8BD2B227F596300BFEE80 /* LogStu_macOSTests.swift */,
-				C5D8BD2D227F596300BFEE80 /* Info.plist */,
-			);
-			path = "LogStu macOSTests";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E7DF1EBF219450AACEC851B8 /* Pods */ = {
@@ -319,7 +224,6 @@
 				B47E5BEF42ECBA76B860AC5A /* Pods-LogStu watchOS.debug.xcconfig */,
 				C88C3DF1A387A08C6A604A57 /* Pods-LogStu watchOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -330,7 +234,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BCDC227F58E600BFEE80 /* LogStu_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +241,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BCF9227F592B00BFEE80 /* LogStu_watchOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +248,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BD12227F594000BFEE80 /* LogStu_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +255,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BD2E227F596300BFEE80 /* LogStu_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,7 +670,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BCDA227F58E600BFEE80 /* LogStu_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,7 +691,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BD10227F594000BFEE80 /* LogStu_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,7 +705,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D8BD2C227F596300BFEE80 /* LogStu_macOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,7 +800,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu iOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -980,7 +877,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu iOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1058,7 +955,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu iOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1126,7 +1023,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu iOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1206,7 +1103,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu watchOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1284,7 +1181,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu watchOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1367,7 +1264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu tvOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1444,7 +1341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu tvOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1521,7 +1418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu tvOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1588,7 +1485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu tvOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1669,7 +1566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu macOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1747,7 +1644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu macOS/Info.plist";
+				INFOPLIST_FILE = LogStu/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1824,7 +1721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu macOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1892,7 +1789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "LogStu macOSTests/Info.plist";
+				INFOPLIST_FILE = LogStuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
