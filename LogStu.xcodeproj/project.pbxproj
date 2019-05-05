@@ -16,6 +16,36 @@
 		C5D8BCD5227F58E600BFEE80 /* LogStu_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */; };
 		C5D8BD0B227F594000BFEE80 /* LogStu_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */; };
 		C5D8BD27227F596300BFEE80 /* LogStu_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD1E227F596200BFEE80 /* LogStu_macOS.framework */; };
+		C5D8BD37227F5F1D00BFEE80 /* LoggingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */; };
+		C5D8BD40227F639F00BFEE80 /* Benchmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */; };
+		C5D8BD42227F64E000BFEE80 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD41227F64E000BFEE80 /* Logger.swift */; };
+		C5D8BD43227F64E000BFEE80 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD41227F64E000BFEE80 /* Logger.swift */; };
+		C5D8BD44227F64E000BFEE80 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD41227F64E000BFEE80 /* Logger.swift */; };
+		C5D8BD45227F64E000BFEE80 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD41227F64E000BFEE80 /* Logger.swift */; };
+		C5D8BD47227F654D00BFEE80 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD46227F654D00BFEE80 /* Formatter.swift */; };
+		C5D8BD48227F654D00BFEE80 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD46227F654D00BFEE80 /* Formatter.swift */; };
+		C5D8BD49227F654D00BFEE80 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD46227F654D00BFEE80 /* Formatter.swift */; };
+		C5D8BD4A227F654D00BFEE80 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD46227F654D00BFEE80 /* Formatter.swift */; };
+		C5D8BD4C227F656D00BFEE80 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD4B227F656D00BFEE80 /* Formatters.swift */; };
+		C5D8BD4D227F656D00BFEE80 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD4B227F656D00BFEE80 /* Formatters.swift */; };
+		C5D8BD4E227F656D00BFEE80 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD4B227F656D00BFEE80 /* Formatters.swift */; };
+		C5D8BD4F227F656D00BFEE80 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD4B227F656D00BFEE80 /* Formatters.swift */; };
+		C5D8BD51227F65A700BFEE80 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD50227F65A700BFEE80 /* Theme.swift */; };
+		C5D8BD52227F65A700BFEE80 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD50227F65A700BFEE80 /* Theme.swift */; };
+		C5D8BD53227F65A700BFEE80 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD50227F65A700BFEE80 /* Theme.swift */; };
+		C5D8BD54227F65A700BFEE80 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD50227F65A700BFEE80 /* Theme.swift */; };
+		C5D8BD56227F65C900BFEE80 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD55227F65C900BFEE80 /* Themes.swift */; };
+		C5D8BD57227F65C900BFEE80 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD55227F65C900BFEE80 /* Themes.swift */; };
+		C5D8BD58227F65C900BFEE80 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD55227F65C900BFEE80 /* Themes.swift */; };
+		C5D8BD59227F65C900BFEE80 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD55227F65C900BFEE80 /* Themes.swift */; };
+		C5D8BD5C227F662700BFEE80 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD5B227F662700BFEE80 /* String+Extension.swift */; };
+		C5D8BD5D227F662700BFEE80 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD5B227F662700BFEE80 /* String+Extension.swift */; };
+		C5D8BD5E227F662700BFEE80 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD5B227F662700BFEE80 /* String+Extension.swift */; };
+		C5D8BD5F227F662700BFEE80 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD5B227F662700BFEE80 /* String+Extension.swift */; };
+		C5D8BD63227F68BD00BFEE80 /* LogStu.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCB2227F58A300BFEE80 /* LogStu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D8BD64227F68C500BFEE80 /* LogStu.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCB2227F58A300BFEE80 /* LogStu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D8BD65227F68D100BFEE80 /* LogStu.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCB2227F58A300BFEE80 /* LogStu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D8BD66227F68D700BFEE80 /* LogStu.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D8BCB2227F58A300BFEE80 /* LogStu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC30C824D32BA8B2693E208A /* libPods-LogStu tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F01341A2C83DD044A28BA1D /* libPods-LogStu tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +102,14 @@
 		C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD1E227F596200BFEE80 /* LogStu_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD26227F596300BFEE80 /* LogStu macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingLevel.swift; sourceTree = "<group>"; };
+		C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmarker.swift; sourceTree = "<group>"; };
+		C5D8BD41227F64E000BFEE80 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C5D8BD46227F654D00BFEE80 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		C5D8BD4B227F656D00BFEE80 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		C5D8BD50227F65A700BFEE80 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C5D8BD55227F65C900BFEE80 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		C5D8BD5B227F662700BFEE80 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		C88C3DF1A387A08C6A604A57 /* Pods-LogStu watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu watchOS.release.xcconfig"; path = "Target Support Files/Pods-LogStu watchOS/Pods-LogStu watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		C9533960968D72C1FF9B959E /* Pods-LogStu macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu macOS.release.xcconfig"; path = "Target Support Files/Pods-LogStu macOS/Pods-LogStu macOS.release.xcconfig"; sourceTree = "<group>"; };
 		CF7C73C377EC9799816CE20F /* Pods-LogStu macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu macOS.debug.xcconfig"; path = "Target Support Files/Pods-LogStu macOS/Pods-LogStu macOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +196,7 @@
 		C5D8BCA3227F579800BFEE80 = {
 			isa = PBXGroup;
 			children = (
-				C5D8BCB1227F58A300BFEE80 /* LogStu */,
+				C5D8BCB1227F58A300BFEE80 /* Source */,
 				C5D8BCBC227F58A400BFEE80 /* LogStuTests */,
 				C5D8BCB0227F58A300BFEE80 /* Products */,
 				E7DF1EBF219450AACEC851B8 /* Pods */,
@@ -180,12 +218,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5D8BCB1227F58A300BFEE80 /* LogStu */ = {
+		C5D8BCB1227F58A300BFEE80 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8BD60227F67D400BFEE80 /* Formatting */,
+				C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */,
+				C5D8BD41227F64E000BFEE80 /* Logger.swift */,
+				C5D8BD5A227F661200BFEE80 /* Extensions */,
 				C5D8BD35227F5DFC00BFEE80 /* Supporting Files */,
 			);
-			path = LogStu;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C5D8BCBC227F58A400BFEE80 /* LogStuTests */ = {
@@ -200,10 +242,38 @@
 		C5D8BD35227F5DFC00BFEE80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5D8BD62227F683A00BFEE80 /* Performance Tracking */,
 				C5D8BCB2227F58A300BFEE80 /* LogStu.h */,
 				C5D8BCB3227F58A300BFEE80 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D8BD5A227F661200BFEE80 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8BD5B227F662700BFEE80 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5D8BD60227F67D400BFEE80 /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8BD46227F654D00BFEE80 /* Formatter.swift */,
+				C5D8BD4B227F656D00BFEE80 /* Formatters.swift */,
+				C5D8BD50227F65A700BFEE80 /* Theme.swift */,
+				C5D8BD55227F65C900BFEE80 /* Themes.swift */,
+			);
+			path = Formatting;
+			sourceTree = "<group>";
+		};
+		C5D8BD62227F683A00BFEE80 /* Performance Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */,
+			);
+			path = "Performance Tracking";
 			sourceTree = "<group>";
 		};
 		E7DF1EBF219450AACEC851B8 /* Pods */ = {
@@ -234,6 +304,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD63227F68BD00BFEE80 /* LogStu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +312,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD64227F68C500BFEE80 /* LogStu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +320,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD65227F68D100BFEE80 /* LogStu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +328,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD66227F68D700BFEE80 /* LogStu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +344,7 @@
 				C5D8BCC8227F58E600BFEE80 /* Sources */,
 				C5D8BCC9227F58E600BFEE80 /* Frameworks */,
 				C5D8BCCA227F58E600BFEE80 /* Resources */,
+				C5D8BD38227F5F9900BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -288,6 +363,7 @@
 				C5D8BCD0227F58E600BFEE80 /* Sources */,
 				C5D8BCD1227F58E600BFEE80 /* Frameworks */,
 				C5D8BCD2227F58E600BFEE80 /* Resources */,
+				C5D8BD3E227F5FF000BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -308,6 +384,7 @@
 				C5D8BCF1227F592B00BFEE80 /* Sources */,
 				C5D8BCF2227F592B00BFEE80 /* Frameworks */,
 				C5D8BCF3227F592B00BFEE80 /* Resources */,
+				C5D8BD39227F5FBA00BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -327,6 +404,7 @@
 				C5D8BCFE227F594000BFEE80 /* Sources */,
 				C5D8BCFF227F594000BFEE80 /* Frameworks */,
 				C5D8BD00227F594000BFEE80 /* Resources */,
+				C5D8BD3A227F5FC300BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -345,6 +423,7 @@
 				C5D8BD06227F594000BFEE80 /* Sources */,
 				C5D8BD07227F594000BFEE80 /* Frameworks */,
 				C5D8BD08227F594000BFEE80 /* Resources */,
+				C5D8BD3D227F5FE000BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -365,6 +444,7 @@
 				C5D8BD1A227F596200BFEE80 /* Sources */,
 				C5D8BD1B227F596200BFEE80 /* Frameworks */,
 				C5D8BD1C227F596200BFEE80 /* Resources */,
+				C5D8BD3B227F5FCD00BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -383,6 +463,7 @@
 				C5D8BD22227F596300BFEE80 /* Sources */,
 				C5D8BD23227F596300BFEE80 /* Frameworks */,
 				C5D8BD24227F596300BFEE80 /* Resources */,
+				C5D8BD3C227F5FD700BFEE80 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -405,21 +486,25 @@
 				TargetAttributes = {
 					C5D8BCCB227F58E600BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					C5D8BCD3227F58E600BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					C5D8BCF4227F592B00BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					C5D8BD01227F594000BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					C5D8BD09227F594000BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 					C5D8BD1D227F596200BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					C5D8BD25227F596300BFEE80 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -634,6 +719,125 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5D8BD38227F5F9900BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD39227F5FBA00BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD3A227F5FC300BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD3B227F5FCD00BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD3C227F5FD700BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD3D227F5FE000BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C5D8BD3E227F5FF000BFEE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		E0899F72C73DB17DA848014C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,6 +867,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD5C227F662700BFEE80 /* String+Extension.swift in Sources */,
+				C5D8BD56227F65C900BFEE80 /* Themes.swift in Sources */,
+				C5D8BD40227F639F00BFEE80 /* Benchmarker.swift in Sources */,
+				C5D8BD42227F64E000BFEE80 /* Logger.swift in Sources */,
+				C5D8BD47227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C5D8BD51227F65A700BFEE80 /* Theme.swift in Sources */,
+				C5D8BD4C227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C5D8BD37227F5F1D00BFEE80 /* LoggingLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +889,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD4D227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C5D8BD52227F65A700BFEE80 /* Theme.swift in Sources */,
+				C5D8BD48227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C5D8BD57227F65C900BFEE80 /* Themes.swift in Sources */,
+				C5D8BD5D227F662700BFEE80 /* String+Extension.swift in Sources */,
+				C5D8BD43227F64E000BFEE80 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +902,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD4E227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C5D8BD53227F65A700BFEE80 /* Theme.swift in Sources */,
+				C5D8BD49227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C5D8BD58227F65C900BFEE80 /* Themes.swift in Sources */,
+				C5D8BD5E227F662700BFEE80 /* String+Extension.swift in Sources */,
+				C5D8BD44227F64E000BFEE80 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +922,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D8BD4F227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C5D8BD54227F65A700BFEE80 /* Theme.swift in Sources */,
+				C5D8BD4A227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C5D8BD59227F65C900BFEE80 /* Themes.swift in Sources */,
+				C5D8BD5F227F662700BFEE80 /* String+Extension.swift in Sources */,
+				C5D8BD45227F64E000BFEE80 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -800,9 +1030,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -877,9 +1107,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -905,6 +1135,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 778F24951D6CD9F8A393B333 /* Pods-LogStu iOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -979,6 +1210,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AF39986EF12E10BD604A4D2 /* Pods-LogStu iOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1103,7 +1335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1123,7 +1355,7 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
 		};
@@ -1181,7 +1413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1201,7 +1433,7 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
@@ -1264,7 +1496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1282,7 +1514,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1341,7 +1573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1358,7 +1590,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1369,6 +1601,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 516E7E487026BC2471D18B24 /* Pods-LogStu tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1442,6 +1675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 121F641A5E5205859F7BF56C /* Pods-LogStu tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1566,14 +1800,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1644,14 +1878,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LogStu/Info.plist;
+				INFOPLIST_FILE = "Source/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jasnstu.LogStu-macOS";
@@ -1670,6 +1904,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83B8D401F36CF4278D118B8D /* Pods-LogStu macOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1744,6 +1979,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 731BDD4095F814D67D2BA4F2 /* Pods-LogStu macOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
