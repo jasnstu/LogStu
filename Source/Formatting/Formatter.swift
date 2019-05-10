@@ -25,20 +25,6 @@
 
 import Foundation
 
-public enum Component {
-
-    case date(String)
-    case message
-    case level
-    case file(fullPath: Bool, fileExtension: Bool)
-    case line
-    case column
-    case function
-    case location
-    case block(() -> Any?)
-
-}
-
 public class Formatter: Formatters {
 
     /// The formatter format.
@@ -209,7 +195,7 @@ private extension Formatter {
     func format(file: String, line: Int) -> String {
         return [
             format(file: file, fullPath: false, fileExtension: true),
-            String(line)
+            String(line),
             ].joined(separator: ":")
     }
 

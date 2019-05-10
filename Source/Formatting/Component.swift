@@ -19,32 +19,22 @@
 //    SOFTWARE.
 //
 //
-//  Formatters.swift
-//  LogStu
+//  Component.swift
+//  LogStu iOS
 //
 
-public class Formatters {
+import Foundation
 
-    public static let `default` = Formatter("[%@] %@ %@: %@", [
-        .date("yyyy-MM-dd HH:mm:ss.SSS"),
-        .location,
-        .level,
-        .message,
-    ])
+public enum Component {
 
-    public static let minimal = Formatter("%@ %@: %@", [
-        .location,
-        .level,
-        .message,
-    ])
-
-    public static let detailed = Formatter("[%@] %@.%@:%@ %@: %@", [
-        .date("yyyy-MM-dd HH:mm:ss.SSS"),
-        .file(fullPath: false, fileExtension: false),
-        .function,
-        .line,
-        .level,
-        .message,
-    ])
+    case date(String)
+    case message
+    case level
+    case file(fullPath: Bool, fileExtension: Bool)
+    case line
+    case column
+    case function
+    case location
+    case block(() -> Any?)
 
 }
