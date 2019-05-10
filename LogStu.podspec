@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name		 = "LogStu"
-	s.version	 = "2.0.0"
+	s.version	 = "2.0.1"
 	s.license    = { :type => "MIT" }
 	s.homepage   = "https://github.com/jasnstu/LogStu"
 	s.author     = { "jasnstu" => "LogStu@jasnstu.com"}
