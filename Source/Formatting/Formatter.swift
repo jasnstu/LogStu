@@ -1,25 +1,29 @@
+//    Copyright (c) 2019 jasnstu (http://jasnstu.com))
+//
+//    Permission is hereby granted, free of charge, to any person obtaining a copy
+//    of this software and associated documentation files (the "Software"), to deal
+//    in the Software without restriction, including without limitation the rights
+//    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//    copies of the Software, and to permit persons to whom the Software is
+//    furnished to do so, subject to the following conditions:
+//
+//    The above copyright notice and this permission notice shall be included in all
+//    copies or substantial portions of the Software.
+//
+//    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+//    SOFTWARE.
+//
 //
 //  Formatter.swift
 //  LogStu
 //
-//  Created by Jason Stuemke on 5/5/19.
-//
 
 import Foundation
-
-public enum Component {
-
-    case date(String)
-    case message
-    case level
-    case file(fullPath: Bool, fileExtension: Bool)
-    case line
-    case column
-    case function
-    case location
-    case block(() -> Any?)
-
-}
 
 public class Formatter: Formatters {
 
@@ -146,6 +150,8 @@ public class Formatter: Formatters {
 
 }
 
+// MARK: - Private
+
 private extension Formatter {
 
     /// Formats a date with the specified date format.
@@ -189,7 +195,7 @@ private extension Formatter {
     func format(file: String, line: Int) -> String {
         return [
             format(file: file, fullPath: false, fileExtension: true),
-            String(line)
+            String(line),
             ].joined(separator: ":")
     }
 

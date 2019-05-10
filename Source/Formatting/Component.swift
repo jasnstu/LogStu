@@ -19,18 +19,22 @@
 //    SOFTWARE.
 //
 //
-//  LogStu.h
-//  LogStu
+//  Component.swift
+//  LogStu iOS
 //
 
-#import <UIKit/UIKit.h>
+import Foundation
 
-//! Project version number for LogStu.
-FOUNDATION_EXPORT double LogStuVersionNumber;
+public enum Component {
 
-//! Project version string for LogStu.
-FOUNDATION_EXPORT const unsigned char LogStuVersionString[];
+    case date(String)
+    case message
+    case level
+    case file(fullPath: Bool, fileExtension: Bool)
+    case line
+    case column
+    case function
+    case location
+    case block(() -> Any?)
 
-// In this header, you should import all the public headers of your framework using statements like #import <LogStu/PublicHeader.h>
-
-@import Foundation;
+}
