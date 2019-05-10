@@ -23,7 +23,7 @@
 //  LogStu iOS
 //
 
-public enum Level: Int {
+public enum LoggingLevel: Int {
 
     case trace, debug, info, warning, error
 
@@ -33,12 +33,12 @@ public enum Level: Int {
 
 }
 
-extension Level: Comparable { }
+extension LoggingLevel: Comparable { }
 
-public func == (left: Level, right: Level) -> Bool {
+public func == (left: LoggingLevel, right: LoggingLevel) -> Bool {
     return left.rawValue == right.rawValue
 }
 
-public func < (left: Level, right: Level) -> Bool {
+public func < (left: LoggingLevel, right: LoggingLevel) -> Bool {
     return left.rawValue < right.rawValue
 }

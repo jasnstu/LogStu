@@ -13,7 +13,16 @@
 		8398E7A0579D459AF5323CDA /* libPods-LogStu tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9856B88D00792382ABF4E9A /* libPods-LogStu tvOS.a */; };
 		ACAC8A63DF597A150FFE3B05 /* libPods-LogStu iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AF87A71D68A7420A6C3D1F /* libPods-LogStu iOS.a */; };
 		BBF5540356BB3B9F6919BC81 /* libPods-LogStu macOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5054B69828D544CB1AD3709A /* libPods-LogStu macOSTests.a */; };
-		C53C13C0228514A500D91D75 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C13BF228514A500D91D75 /* Component.swift */; };
+		C53C13C0228514A500D91D75 /* LogComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C13BF228514A500D91D75 /* LogComponent.swift */; };
+		C54BD3BF2285F44800A4F3DF /* LogComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C13BF228514A500D91D75 /* LogComponent.swift */; };
+		C54BD3C02285F44900A4F3DF /* LogComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C13BF228514A500D91D75 /* LogComponent.swift */; };
+		C54BD3C12285F44900A4F3DF /* LogComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C13BF228514A500D91D75 /* LogComponent.swift */; };
+		C54BD3C22285F45700A4F3DF /* LoggingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */; };
+		C54BD3C32285F45800A4F3DF /* LoggingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */; };
+		C54BD3C42285F45800A4F3DF /* LoggingLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD36227F5F1D00BFEE80 /* LoggingLevel.swift */; };
+		C54BD3C52285F46A00A4F3DF /* Benchmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */; };
+		C54BD3C62285F46B00A4F3DF /* Benchmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */; };
+		C54BD3C72285F46B00A4F3DF /* Benchmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D8BD3F227F639F00BFEE80 /* Benchmarker.swift */; };
 		C5D8BCD5227F58E600BFEE80 /* LogStu_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */; };
 		C5D8BD0B227F594000BFEE80 /* LogStu_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */; };
 		C5D8BD27227F596300BFEE80 /* LogStu_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D8BD1E227F596200BFEE80 /* LogStu_macOS.framework */; };
@@ -93,7 +102,7 @@
 		A9856B88D00792382ABF4E9A /* libPods-LogStu tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogStu tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47E5BEF42ECBA76B860AC5A /* Pods-LogStu watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogStu watchOS.debug.xcconfig"; path = "Target Support Files/Pods-LogStu watchOS/Pods-LogStu watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C50E93EA228545C70034E756 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C53C13BF228514A500D91D75 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		C53C13BF228514A500D91D75 /* LogComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogComponent.swift; sourceTree = "<group>"; };
 		C5D8BCB2227F58A300BFEE80 /* LogStu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogStu.h; sourceTree = "<group>"; };
 		C5D8BCB3227F58A300BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCBD227F58A400BFEE80 /* LogStuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStuTests.swift; sourceTree = "<group>"; };
@@ -268,7 +277,7 @@
 				C5D8BD4B227F656D00BFEE80 /* Formatters.swift */,
 				C5D8BD50227F65A700BFEE80 /* Theme.swift */,
 				C5D8BD55227F65C900BFEE80 /* Themes.swift */,
-				C53C13BF228514A500D91D75 /* Component.swift */,
+				C53C13BF228514A500D91D75 /* LogComponent.swift */,
 			);
 			path = Formatting;
 			sourceTree = "<group>";
@@ -873,7 +882,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8BD5C227F662700BFEE80 /* String+Extension.swift in Sources */,
-				C53C13C0228514A500D91D75 /* Component.swift in Sources */,
+				C53C13C0228514A500D91D75 /* LogComponent.swift in Sources */,
 				C5D8BD56227F65C900BFEE80 /* Themes.swift in Sources */,
 				C5D8BD40227F639F00BFEE80 /* Benchmarker.swift in Sources */,
 				C5D8BD42227F64E000BFEE80 /* Logger.swift in Sources */,
@@ -896,8 +905,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8BD4D227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C54BD3BF2285F44800A4F3DF /* LogComponent.swift in Sources */,
 				C5D8BD52227F65A700BFEE80 /* Theme.swift in Sources */,
 				C5D8BD48227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C54BD3C52285F46A00A4F3DF /* Benchmarker.swift in Sources */,
+				C54BD3C22285F45700A4F3DF /* LoggingLevel.swift in Sources */,
 				C5D8BD57227F65C900BFEE80 /* Themes.swift in Sources */,
 				C5D8BD5D227F662700BFEE80 /* String+Extension.swift in Sources */,
 				C5D8BD43227F64E000BFEE80 /* Logger.swift in Sources */,
@@ -909,8 +921,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8BD4E227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C54BD3C02285F44900A4F3DF /* LogComponent.swift in Sources */,
 				C5D8BD53227F65A700BFEE80 /* Theme.swift in Sources */,
 				C5D8BD49227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C54BD3C62285F46B00A4F3DF /* Benchmarker.swift in Sources */,
+				C54BD3C32285F45800A4F3DF /* LoggingLevel.swift in Sources */,
 				C5D8BD58227F65C900BFEE80 /* Themes.swift in Sources */,
 				C5D8BD5E227F662700BFEE80 /* String+Extension.swift in Sources */,
 				C5D8BD44227F64E000BFEE80 /* Logger.swift in Sources */,
@@ -929,8 +944,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D8BD4F227F656D00BFEE80 /* Formatters.swift in Sources */,
+				C54BD3C12285F44900A4F3DF /* LogComponent.swift in Sources */,
 				C5D8BD54227F65A700BFEE80 /* Theme.swift in Sources */,
 				C5D8BD4A227F654D00BFEE80 /* Formatter.swift in Sources */,
+				C54BD3C72285F46B00A4F3DF /* Benchmarker.swift in Sources */,
+				C54BD3C42285F45800A4F3DF /* LoggingLevel.swift in Sources */,
 				C5D8BD59227F65C900BFEE80 /* Themes.swift in Sources */,
 				C5D8BD5F227F662700BFEE80 /* String+Extension.swift in Sources */,
 				C5D8BD45227F64E000BFEE80 /* Logger.swift in Sources */,

@@ -25,7 +25,7 @@
 
 import Foundation
 
-public enum Component {
+public enum LogComponent {
 
     case date(String)
     case message

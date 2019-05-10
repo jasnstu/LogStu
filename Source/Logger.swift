@@ -39,7 +39,7 @@ open class Logger {
     public var theme: Theme
 
     /// The minimum level of severity.
-    public var minLevel: Level
+    public var minLevel: LoggingLevel
 
     /// The logger format.
     public var format: String {
@@ -61,7 +61,7 @@ open class Logger {
     ///   - formatter: The formatter.
     ///   - theme: The theme.
     ///   - minLevel: The minimum level of severity.
-    public init(formatter: Formatter = .default, theme: Theme = .emojiHearts, minLevel: Level = .trace) {
+    public init(formatter: Formatter = .default, theme: Theme = .emojiHearts, minLevel: LoggingLevel = .trace) {
         self.formatter = formatter
         self.theme = theme
         self.minLevel = minLevel
@@ -155,7 +155,7 @@ open class Logger {
     ///   - line: The line at which the log happens.
     ///   - column: The column at which the log happens.
     ///   - function: The function in which the log happens.
-    private func log(_ level: Level, _ items: [Any], _ separator: String, _ terminator: String, _ file: String, _ line: Int, _ column: Int, _ function: String) {
+    private func log(_ level: LoggingLevel, _ items: [Any], _ separator: String, _ terminator: String, _ file: String, _ line: Int, _ column: Int, _ function: String) {
         // swiftlint:disable:previous line_length function_parameter_count
         guard enabled && level >= minLevel else {
             return

@@ -31,7 +31,7 @@ public class Formatter: Formatters {
     private var format: String
 
     /// The formatter components.
-    private var components: [Component]
+    private var components: [LogComponent]
 
     /// The date formatter.
     fileprivate let dateFormatter = DateFormatter()
@@ -41,7 +41,7 @@ public class Formatter: Formatters {
 
     /// The formatter textual representation.
     internal var description: String {
-        return String(format: format, arguments: components.map { (component: Component) -> CVarArg in
+        return String(format: format, arguments: components.map { (component: LogComponent) -> CVarArg in
             return String(describing: component).uppercased()
         })
     }
@@ -51,7 +51,7 @@ public class Formatter: Formatters {
     /// - Parameters:
     ///   - format: The formatter format.
     ///   - components: The formatter components.
-    public convenience init(_ format: String, _ components: Component...) {
+    public convenience init(_ format: String, _ components: LogComponent...) {
         self.init(format, components)
     }
 
@@ -60,7 +60,7 @@ public class Formatter: Formatters {
     /// - Parameters:
     ///   - format: The formatter format.
     ///   - components: The formatter components.
-    public init(_ format: String, _ components: [Component]) {
+    public init(_ format: String, _ components: [LogComponent]) {
         self.format = format
         self.components = components
     }
@@ -78,10 +78,10 @@ public class Formatter: Formatters {
     ///   - function: The log function.
     ///   - date: The log date.
     /// - Returns: A formatted string.
-    internal func format(level: Level, items: [Any], separator: String, terminator: String, file: String, line: Int, column: Int, function: String, date: Date) -> String {
+    internal func format(level: LoggingLevel, items: [Any], separator: String, terminator: String, file: String, line: Int, column: Int, function: String, date: Date) -> String {
         // swiftlint:disable:previous line_length function_parameter_count
 
-        let arguments = components.map { (component: Component) -> CVarArg in
+        let arguments = components.map { (component: LogComponent) -> CVarArg in
             switch component {
             case .date(let dateFormat):
                 return format(date: date, dateFormat: dateFormat)
@@ -122,7 +122,7 @@ public class Formatter: Formatters {
     func format(description: String?, average: Double, relativeStandardDeviation: Double, file: String, line: Int, column: Int, function: String, date: Date) -> String {
         // swiftlint:disable:previous line_length function_parameter_count
 
-        let arguments = components.map { (component: Component) -> CVarArg in
+        let arguments = components.map { (component: LogComponent) -> CVarArg in
             switch component {
             case .date(let dateFormat):
                 return format(date: date, dateFormat: dateFormat)
@@ -203,7 +203,7 @@ private extension Formatter {
     ///
     /// - Parameter level: The Level component.
     /// - Returns: A formatted Level component.
-    func format(level: Level) -> String {
+    func format(level: LoggingLevel) -> String {
         let text = level.description
 
         if let style = logger.theme.style(for: level) {
