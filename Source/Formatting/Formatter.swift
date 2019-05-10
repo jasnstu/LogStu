@@ -207,13 +207,7 @@ private extension Formatter {
         let text = level.description
 
         if let style = logger.theme.style(for: level) {
-            var styledString = style.emoji + text
-
-            if let color = style.color {
-                styledString = styledString.withColor(color)
-            }
-
-            return styledString
+            return style.emoji + text
         }
 
         return text
@@ -228,10 +222,6 @@ private extension Formatter {
 
         if let style = logger.theme.style(for: .debug) {
             text = style.emoji + text
-
-            if let color = style.color {
-                text = text.withColor(color)
-            }
         }
 
         if let description = description {

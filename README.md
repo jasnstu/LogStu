@@ -58,24 +58,6 @@ extension Formatters {
 
 extension Themes {
 
-    static let tomorrowNight = Theme(trace: Theme.Style(color: "#C5C8C6"),
-                                     debug: Theme.Style(color: "#81A2BE"),
-                                     info: Theme.Style(color: "#B5BD68"),
-                                     warning: Theme.Style(color: "#F0C674"),
-                                     error: Theme.Style(color: "#CC6666"))
-
-}
-```
-
-```swift
-let log = Logger(formatter: .detailed, theme: .tomorrowNight)
-```
-- Note: The Themes with colors are only supported on pre-XcodeX, and will be deprecated in v2.0.0
-- XcodeX can use emojis to add a little color, and actually has them enabled by default, as seen in the example above. If you want to create your own emoji themes, it's just a matter over adding one to the extension:
-
-```swift
-extension Themes {
-
     static let newEmojis = Theme(trace: Theme.Style(emoji: "☎️"),
                                 debug: Theme.Style(color: "🐜"),
                                 info: Theme.Style(color: "💁‍♂️"),

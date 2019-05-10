@@ -30,20 +30,14 @@ public class Theme: Themes {
     /// Style object to hold color and emoji for each level.
     public struct Style {
 
-        /// Color for the syyle.
-        public let color: String?
-
         /// Emoji for the style.
         public let emoji: String
 
         /// Creates and returns a style with the specified color or/and emoji.
         ///
         /// - Parameters:
-        ///   - color: The color for the style.
         ///   - emoji: The emoji for the style.
-        public init(color: String? = nil, emoji: String? = nil) {
-            self.color = color
-
+        public init(emoji: String? = nil) {
             if let emoji = emoji {
                 self.emoji = emoji + " "
             } else {
@@ -66,36 +60,7 @@ public class Theme: Themes {
 
     /// The theme textual representation.
     internal var description: String {
-        return styles.keys.sorted().map {
-            var string = (styles[$0]?.emoji ?? "") + $0.description
-
-            if let color = styles[$0]?.color {
-                string = string.withColor(color)
-            }
-
-            return string
-            }.joined(separator: " ")
-    }
-
-    /// Creates and returns a theme with the specified colors.
-    /// **WARNING**: Deprecated!
-    /// Use `init( trace: Style, debug: Style, info: Style, warning: Style, error: Style)` instead.
-    ///
-    /// - Parameters:
-    ///   - trace: The color for the trace level.
-    ///   - debug: The color for the debug level.
-    ///   - info: The color for the info level.
-    ///   - warning: The color for the warning level.
-    ///   - error: The color for the error level.
-    @available(*, deprecated)
-    public init(trace: String, debug: String, info: String, warning: String, error: String) {
-        self.styles = [
-            .trace: Style(color: Theme.formatHex(trace)),
-            .debug: Style(color: Theme.formatHex(debug)),
-            .info: Style(color: Theme.formatHex(info)),
-            .warning: Style(color: Theme.formatHex(warning)),
-            .error: Style(color: Theme.formatHex(error)),
-        ]
+        return styles.keys.sorted().map { (styles[$0]?.emoji ?? "") + $0.description }.joined(separator: " ")
     }
 
     /// Creates and returns a theme with the specified styles.
