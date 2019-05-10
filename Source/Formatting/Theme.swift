@@ -48,13 +48,13 @@ public class Theme: Themes {
     }
 
     /// The theme styles.
-    private var styles: [Level: Style]
+    private var styles: [LoggingLevel: Style]
 
     /// Returns style for the specified level.
     ///
     /// - Parameter level: The level for which style needs to be selected.
     /// - Returns: A style for specific level.
-    internal func style(for level: Level) -> Style? {
+    internal func style(for level: LoggingLevel) -> Style? {
         return styles[level]
     }
 
