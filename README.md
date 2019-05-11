@@ -59,8 +59,8 @@ extension Formatters {
 extension Themes {
 
     static let newEmojis = Theme(trace: Theme.Style(emoji: "☎️"),
-                                debug: Theme.Style(color: "🐜"),
-                                info: Theme.Style(color: "💁‍♂️"),
+                                debug: Theme.Style(emoji: "🐜"),
+                                info: Theme.Style(emoji: "💁‍♂️"),
                                 warning: Theme.Style(emoji: "⚠️"),
                                 error: Theme.Style(emoji: "👿"))
 
@@ -71,9 +71,6 @@ let log = Logger(formatter: .detailed, theme: .newEmojis)
 
 > See the built-in [formatters](https://github.com/jasnstu/LogStu/blob/master/Source/Formatting/Formatters.swift) and [themes](https://github.com/jasnstu/LogStu/blob/master/Source/Formatting/Themes.swift) for more examples.
 
-**Tip:** `Log.format` and `Log.colors` can be useful to visually debug your logger.
-- Reminder: Colors are going away in v2.0.0 start moving to Emojis
-
 Nothing prevents you from creating as many loggers as you want!
 
 ```swift
@@ -83,7 +80,7 @@ let short = logger(formatter: Formatter("%@: %@", .level, .message),
                    minLevel: .info)
 ```
 
-- Turn off the colors by setting the theme to `nil`:
+- Turn off the emoji by setting the theme to `nil`:
 
 ```swift
 Log.theme = nil

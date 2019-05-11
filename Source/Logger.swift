@@ -46,11 +46,6 @@ open class Logger {
         return formatter.description
     }
 
-    /// The logger colors
-    public var colors: String {
-        return theme.description
-    }
-
     /// The queue used for logging.
     private let queue = DispatchQueue(label: "delba.log")
     private let benchmarker = Benchmarker()

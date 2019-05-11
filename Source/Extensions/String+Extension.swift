@@ -37,12 +37,4 @@ extension String {
         return NSString(string: self).deletingPathExtension
     }
 
-    /// Returns a string colored with the specified color.
-    ///
-    /// - Parameter color: The string representation of the color.
-    /// - Returns: A string colored with the specified color.
-    func withColor(_ color: String) -> String {
-        return "\u{001b}[fg\(color);\(self)\u{001b}[;"
-    }
-
 }
