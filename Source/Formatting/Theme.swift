@@ -27,13 +27,13 @@ import Foundation
 
 public class Theme: Themes {
 
-    /// Style object to hold color and emoji for each level.
+    /// Style object to hold emoji for each level.
     public struct Style {
 
         /// Emoji for the style.
         public let emoji: String
 
-        /// Creates and returns a style with the specified color or/and emoji.
+        /// Creates and returns a style with the specified emoji.
         ///
         /// - Parameters:
         ///   - emoji: The emoji for the style.
@@ -79,24 +79,6 @@ public class Theme: Themes {
             .warning: warning,
             .error: error
         ]
-    }
-
-    /// Returns a string representation of the hex color.
-    ///
-    /// - Parameter hex: The hex color.
-    /// - Returns: A string representation of the hex color.
-    private static func formatHex(_ hex: String) -> String {
-        let scanner = Scanner(string: hex)
-        var hex: UInt32 = 0
-
-        scanner.charactersToBeSkipped = CharacterSet(charactersIn: "#")
-        scanner.scanHexInt32(&hex)
-
-        let red = (hex & 0xFF0000) >> 16
-        let green = (hex & 0xFF00) >> 8
-        let blue = (hex & 0xFF)
-
-        return [red, green, blue].map({ String($0) }).joined(separator: ",")
     }
 
 }
