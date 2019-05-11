@@ -108,7 +108,7 @@
 		C5D8BCBD227F58A400BFEE80 /* LogStuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStuTests.swift; sourceTree = "<group>"; };
 		C5D8BCBF227F58A400BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogStuIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BCF5227F592B00BFEE80 /* LogStu_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */,
-				C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */,
+				C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */,
 				C5D8BCF5227F592B00BFEE80 /* LogStu_watchOS.framework */,
 				C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */,
 				C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */,
@@ -371,9 +371,9 @@
 			productReference = C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5D8BCD3227F58E600BFEE80 /* LogStu iOSTests */ = {
+		C5D8BCD3227F58E600BFEE80 /* LogStuIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStu iOSTests" */;
+			buildConfigurationList = C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStuIOSTests" */;
 			buildPhases = (
 				3C02CE5753EC24BC02F0AFD3 /* [CP] Check Pods Manifest.lock */,
 				C5D8BCD0227F58E600BFEE80 /* Sources */,
@@ -386,9 +386,9 @@
 			dependencies = (
 				C5D8BCD7227F58E600BFEE80 /* PBXTargetDependency */,
 			);
-			name = "LogStu iOSTests";
+			name = LogStuIOSTests;
 			productName = "LogStu iOSTests";
-			productReference = C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */;
+			productReference = C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C5D8BCF4227F592B00BFEE80 /* LogStu watchOS */ = {
@@ -546,7 +546,7 @@
 			projectRoot = "";
 			targets = (
 				C5D8BCCB227F58E600BFEE80 /* LogStu iOS */,
-				C5D8BCD3227F58E600BFEE80 /* LogStu iOSTests */,
+				C5D8BCD3227F58E600BFEE80 /* LogStuIOSTests */,
 				C5D8BCF4227F592B00BFEE80 /* LogStu watchOS */,
 				C5D8BD01227F594000BFEE80 /* LogStu tvOS */,
 				C5D8BD09227F594000BFEE80 /* LogStu tvOSTests */,
@@ -2244,7 +2244,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStu iOSTests" */ = {
+		C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStuIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D8BCE1227F58E600BFEE80 /* Debug */,

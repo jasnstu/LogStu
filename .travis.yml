@@ -1,0 +1,14 @@
+language: osx
+osx_image: xcode10.2
+xcode_workspace: LogStu.xcworkspace
+xcode_scheme: LogStuIOSTests
+xcode_sdk: iphonesimulator9.3
+env:
+  global:
+    - FRAMEWORK_NAME=LogStu
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME

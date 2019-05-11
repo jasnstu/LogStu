@@ -196,7 +196,7 @@ private extension Formatter {
         return [
             format(file: file, fullPath: false, fileExtension: true),
             String(line),
-            ].joined(separator: ":")
+        ].joined(separator: ":")
     }
 
     /// Formats a Level component.
