@@ -108,7 +108,7 @@
 		C5D8BCBD227F58A400BFEE80 /* LogStuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStuTests.swift; sourceTree = "<group>"; };
 		C5D8BCBF227F58A400BFEE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogStuIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BCF5227F592B00BFEE80 /* LogStu_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LogStu_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LogStu tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,7 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */,
-				C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */,
+				C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */,
 				C5D8BCF5227F592B00BFEE80 /* LogStu_watchOS.framework */,
 				C5D8BD02227F594000BFEE80 /* LogStu_tvOS.framework */,
 				C5D8BD0A227F594000BFEE80 /* LogStu tvOSTests.xctest */,
@@ -358,7 +358,9 @@
 				C5D8BCC8227F58E600BFEE80 /* Sources */,
 				C5D8BCC9227F58E600BFEE80 /* Frameworks */,
 				C5D8BCCA227F58E600BFEE80 /* Resources */,
-				C5D8BD38227F5F9900BFEE80 /* ShellScript */,
+				C5D8BD38227F5F9900BFEE80 /* SwiftLint */,
+				C54BD3C822862F3700A4F3DF /* Check Carthage Dependencies */,
+				C54BD3CC2286324C00A4F3DF /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,9 +371,9 @@
 			productReference = C5D8BCCC227F58E600BFEE80 /* LogStu_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C5D8BCD3227F58E600BFEE80 /* LogStu iOSTests */ = {
+		C5D8BCD3227F58E600BFEE80 /* LogStuIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStu iOSTests" */;
+			buildConfigurationList = C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStuIOSTests" */;
 			buildPhases = (
 				3C02CE5753EC24BC02F0AFD3 /* [CP] Check Pods Manifest.lock */,
 				C5D8BCD0227F58E600BFEE80 /* Sources */,
@@ -384,9 +386,9 @@
 			dependencies = (
 				C5D8BCD7227F58E600BFEE80 /* PBXTargetDependency */,
 			);
-			name = "LogStu iOSTests";
+			name = LogStuIOSTests;
 			productName = "LogStu iOSTests";
-			productReference = C5D8BCD4227F58E600BFEE80 /* LogStu iOSTests.xctest */;
+			productReference = C5D8BCD4227F58E600BFEE80 /* LogStuIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		C5D8BCF4227F592B00BFEE80 /* LogStu watchOS */ = {
@@ -398,7 +400,9 @@
 				C5D8BCF1227F592B00BFEE80 /* Sources */,
 				C5D8BCF2227F592B00BFEE80 /* Frameworks */,
 				C5D8BCF3227F592B00BFEE80 /* Resources */,
-				C5D8BD39227F5FBA00BFEE80 /* ShellScript */,
+				C5D8BD39227F5FBA00BFEE80 /* SwiftLint */,
+				C54BD3C922862F8F00A4F3DF /* Check Carthage Dependencies */,
+				C54BD3CD2286326F00A4F3DF /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,7 +422,9 @@
 				C5D8BCFE227F594000BFEE80 /* Sources */,
 				C5D8BCFF227F594000BFEE80 /* Frameworks */,
 				C5D8BD00227F594000BFEE80 /* Resources */,
-				C5D8BD3A227F5FC300BFEE80 /* ShellScript */,
+				C5D8BD3A227F5FC300BFEE80 /* SwiftLint */,
+				C54BD3CA22862F9B00A4F3DF /* Check Carthage Dependencies */,
+				C54BD3CE2286327500A4F3DF /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -458,7 +464,9 @@
 				C5D8BD1A227F596200BFEE80 /* Sources */,
 				C5D8BD1B227F596200BFEE80 /* Frameworks */,
 				C5D8BD1C227F596200BFEE80 /* Resources */,
-				C5D8BD3B227F5FCD00BFEE80 /* ShellScript */,
+				C5D8BD3B227F5FCD00BFEE80 /* SwiftLint */,
+				C54BD3CB22862FA300A4F3DF /* Check Carthage Dependencies */,
+				C54BD3CF2286328600A4F3DF /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -538,7 +546,7 @@
 			projectRoot = "";
 			targets = (
 				C5D8BCCB227F58E600BFEE80 /* LogStu iOS */,
-				C5D8BCD3227F58E600BFEE80 /* LogStu iOSTests */,
+				C5D8BCD3227F58E600BFEE80 /* LogStuIOSTests */,
 				C5D8BCF4227F592B00BFEE80 /* LogStu watchOS */,
 				C5D8BD01227F594000BFEE80 /* LogStu tvOS */,
 				C5D8BD09227F594000BFEE80 /* LogStu tvOSTests */,
@@ -733,7 +741,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5D8BD38227F5F9900BFEE80 /* ShellScript */ = {
+		C54BD3C822862F3700A4F3DF /* Check Carthage Dependencies */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,6 +750,151 @@
 			);
 			inputPaths = (
 			);
+			name = "Check Carthage Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings\n";
+		};
+		C54BD3C922862F8F00A4F3DF /* Check Carthage Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check Carthage Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings\n";
+		};
+		C54BD3CA22862F9B00A4F3DF /* Check Carthage Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check Carthage Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings\n";
+		};
+		C54BD3CB22862FA300A4F3DF /* Check Carthage Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check Carthage Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings\n";
+		};
+		C54BD3CC2286324C00A4F3DF /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		C54BD3CD2286326F00A4F3DF /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		C54BD3CE2286327500A4F3DF /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		C54BD3CF2286328600A4F3DF /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		C5D8BD38227F5F9900BFEE80 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -750,7 +903,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		C5D8BD39227F5FBA00BFEE80 /* ShellScript */ = {
+		C5D8BD39227F5FBA00BFEE80 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -759,6 +912,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -767,7 +921,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		C5D8BD3A227F5FC300BFEE80 /* ShellScript */ = {
+		C5D8BD3A227F5FC300BFEE80 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -776,6 +930,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -784,7 +939,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		C5D8BD3B227F5FCD00BFEE80 /* ShellScript */ = {
+		C5D8BD3B227F5FCD00BFEE80 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -793,6 +948,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -2088,7 +2244,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStu iOSTests" */ = {
+		C5D8BCE0227F58E600BFEE80 /* Build configuration list for PBXNativeTarget "LogStuIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5D8BCE1227F58E600BFEE80 /* Debug */,

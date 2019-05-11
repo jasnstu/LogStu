@@ -32,7 +32,9 @@ open class Logger {
 
     /// The logger formatter.
     public var formatter: Formatter {
-        didSet { formatter.logger = self }
+        didSet {
+            formatter.logger = self
+        }
     }
 
     /// The logger theme.
