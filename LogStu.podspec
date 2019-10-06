@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 	s.name		 = "LogStu"
-	s.version	 = "2.2.0"
+	s.version	 = "2.2.1"
 	s.license    = { :type => "MIT" }
-	s.homepage   = "https://github.com/jasnstu/LogStu"
+	s.homepage   = "https://www.jasnstu.com"
 	s.author     = { "jasnstu" => "LogStu@jasnstu.com"}
 	s.summary	 = "An simple logging framework for Swift"
 	s.source	 = { :git => "https://github.com/jasnstu/LogStu.git", :tag => "v2.1.0" }
