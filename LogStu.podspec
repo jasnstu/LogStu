@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
 	s.author     = { "jasnstu" => "LogStu@jasnstu.com"}
 	s.summary	 = "An simple logging framework for Swift"
 	s.source	 = { :git => "https://github.com/jasnstu/LogStu.git", :tag => "v2.1.0" }
+	s.swift_version = '5.0'
 
 	s.ios.deployment_target = "8.0"
 	s.osx.deployment_target = "10.9"
