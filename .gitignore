@@ -35,5 +35,5 @@ xcuserdata/
 
 Carthage/Build
 
-*/*.ds
-
+*.ds
+*.DS_STORE
